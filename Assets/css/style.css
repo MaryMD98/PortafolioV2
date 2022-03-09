@@ -1,17 +1,36 @@
-body{
-    background: radial-gradient(circle, #37008f, white);
+body{ 
+    /* background: radial-gradient(circle,  #5680e9,  #5AB9EA, #84ceeb, #c1c8e4, #8860d0); */
+    background: linear-gradient(45deg, #5680e9, #5AB9EA, #84ceeb, #c1c8e4, #8860d0,#37008f);
+    /* background: linear-gradient(-45deg, #5680e9, #84ceeb, #5AB9EA, #c1c8e4, #8860d0); */
+    /* background: linear-gradient(45deg, #FDFDFD, #DFCEE3, #736797, #C791AD, #9F6FA3, #B397C5, #8E6F84); */    
+      
+    /* background-color: #aff6cf; 
+background-image: linear-gradient(315deg, #aff6cf 0%, #9f98e8 74%); */
+
+/* background-color: #5de6de;
+background-image: linear-gradient(315deg, #5de6de 0%, #b58ecc 74%); */
+
+/* background-color: #f8ceec;
+background-image: linear-gradient(315deg, #f8ceec 0%, #a88beb 74%); */
+
+/* background-color: #89d4cf;
+background-image: linear-gradient(315deg, #89d4cf 0%, #6e45e1 74%); */
+
+/* background-color: #923cb5;
+background-image: linear-gradient(147deg, #923cb5 0%, #000000 74%);  */
+
 }
 
 /******** start of HEADER ************/
-.jumbotron {
+/* .jumbotron {
     text-align: left;
     font-family: 'Outfit', sans-serif;
     text-shadow: 5px 5px 3px #e2d9f1;
     background-image: url("../pictures/walpaper.png");
     margin-bottom:20px;
-}
+} */
 
-.display-3{
+/* .display-3{
     font-weight: bold;
     color: #330757;
     margin-left: 40px;
@@ -32,11 +51,11 @@ header nav a{
 
 header nav a:hover{
     color: #c8bbd1;
-}
+} */
 /******** end of HEADER ************/
 /******* start about me style area ******/
-.aboutMe{
-    padding: 18px;
+/* .aboutMe{ */
+    /* padding: 18px;
     padding-left:25px;
 }
 
@@ -82,10 +101,10 @@ header nav a:hover{
     margin-left:2px;
     background-color: #f5edf8;
     mix-blend-mode: multiply;
-}
+} */
 /******* end of about me style area ******/
 /*********start cards area  *******/
-.card{
+/* .card{
     border-style: solid;
     border-width: 1px;
     border-radius: 50px;
@@ -103,10 +122,10 @@ header nav a:hover{
 
 .card:hover , .card:hover h4 {
     box-shadow: inset 0px 0px 8px #e866ec, 0 0 30px #e866ec;
-  }
+  } */
 /*********end cards area  *******/
 /******* start of the projects and WORKS area *******/
-#projects-link , #works-link{
+/* #projects-link , #works-link{
     margin-left:10px;
     margin-bottom:2px;
     padding-top:10px;
@@ -125,10 +144,10 @@ header nav a:hover{
 
 .project a:hover , .works a:hover{
     color: #c8bbd1;
-}
+} */
 /******* end of the projects and WORKS area *******/
 /***** footer *****/
-footer{
+/* footer{
     text-align: center;
     color:#330757;
 }
@@ -155,7 +174,7 @@ footer{
 
 #contact-me-link h5{
     font-weight: bold;
-}
+} */
 /***** footer *****/
 /**********************************/
 
@@ -166,11 +185,11 @@ footer{
 
 /* media query on small devices */
 /* device less than 768px - use maxwidth */
-@media screen and (max-width: 768px) {
+/* @media screen and (max-width: 768px) { */
     /* on tablets, set columns to only be 50% of the width and not grow */
     /* headear will be on one single line */
    
-    .box-info{
+    /* .box-info{
         flex-direction: column;
     }
 
@@ -196,11 +215,11 @@ footer{
     }
 
 }
-  
+   */
   /* media query for larger screens */
   /* device greater than 992px - use min width */
 
-@media screen and (min-width: 992px) {
+/* @media screen and (min-width: 992px) {
 
     .projects , .works{
         margin-top:20px;
@@ -214,4 +233,4 @@ footer{
         flex-wrap: wrap;
         flex-direction:row-reverse;
     }    
-}
+} */
