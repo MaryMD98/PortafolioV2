@@ -1,6 +1,6 @@
 body{ 
-    /* background: radial-gradient(circle,  #5680e9,  #5AB9EA, #84ceeb, #c1c8e4, #8860d0); */
-    background: linear-gradient(45deg, #5680e9, #5AB9EA, #84ceeb, #c1c8e4, #8860d0,#37008f);
+    /* background: radial-gradient(circle,  #5680e9,  #5AB9EA, #84ceeb, #c1c8e4, #f8ceec, #a88beb, #8860d0,#37008f); */
+    background: linear-gradient(45deg, #5680e9, #5AB9EA, #84ceeb, #c1c8e4, #f8ceec, #a88beb, #8860d0,#37008f);
     /* background: linear-gradient(-45deg, #5680e9, #84ceeb, #5AB9EA, #c1c8e4, #8860d0); */
     /* background: linear-gradient(45deg, #FDFDFD, #DFCEE3, #736797, #C791AD, #9F6FA3, #B397C5, #8E6F84); */    
       
@@ -30,7 +30,7 @@ background-image: linear-gradient(147deg, #923cb5 0%, #000000 74%);  */
     margin-bottom:20px;
 } */
 
-/* .display-3{
+.display-3{
     font-weight: bold;
     color: #330757;
     margin-left: 40px;
@@ -51,11 +51,11 @@ header nav a{
 
 header nav a:hover{
     color: #c8bbd1;
-} */
+} 
 /******** end of HEADER ************/
 /******* start about me style area ******/
-/* .aboutMe{ */
-    /* padding: 18px;
+.aboutMe{ 
+    padding: 18px;
     padding-left:25px;
 }
 
@@ -101,7 +101,7 @@ header nav a:hover{
     margin-left:2px;
     background-color: #f5edf8;
     mix-blend-mode: multiply;
-} */
+} 
 /******* end of about me style area ******/
 /*********start cards area  *******/
 /* .card{
