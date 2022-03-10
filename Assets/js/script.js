@@ -83,7 +83,8 @@ function Display (parentEl, indexDIS, info ) {
         aE2l.setAttribute("href",info.repoLink[i]);
 
         const pEl = document.createElement("p");
-        pEl.setAttribute("style","font-size: 12px");
+        pEl.setAttribute("class","card-text");
+        pEl.setAttribute("style","font-size: 14px");
         pEl.textContent = info.cardTXT[i];
 
         const aEl = document.createElement("a");
