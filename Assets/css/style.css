@@ -190,5 +190,10 @@ header nav a:hover{
 
 /******* footer *******/
 footer{
-    float: right;
+    
+     position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 2.5rem;
+  /* float: left; */
 }
