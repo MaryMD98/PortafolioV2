@@ -24,7 +24,7 @@ background-image: linear-gradient(147deg, #923cb5 0%, #000000 74%);  */
 .cardme {
     box-shadow: 4px 8px 10px 0 #3d0164;
     max-width: 300px;
-    float: left;
+    float:left;
     margin-left: 40px;
     margin-right: 20px;
     margin-top: 10px;
@@ -33,7 +33,16 @@ background-image: linear-gradient(147deg, #923cb5 0%, #000000 74%);  */
     font-family: 'Outfit', arial;
     background: #f9f5fa;
 }
-  
+
+.cardhome {
+    box-shadow: 4px 8px 10px 0 #3d0164;
+    max-width: 300px;
+    margin: auto;
+    text-align: center;
+    font-family: 'Outfit', arial;
+    background: #f9f5fa;
+}
+
 .title {
     color: grey;
     font-size: 18px;
