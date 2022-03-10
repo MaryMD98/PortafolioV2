@@ -187,3 +187,8 @@ header nav a:hover{
 .downloadit{
     margin-left: 20px;
 }
+
+/******* footer *******/
+footer{
+    float: right;
+}
