@@ -133,6 +133,10 @@ header nav a:hover{
     color: #3d0164;
 }
 
+.box-info a{
+    color: #3d0164;
+}
+
 /*********start cards area  *******/
 .card{
     border-style: solid;
