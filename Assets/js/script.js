@@ -6,49 +6,56 @@ const worksInfo = {
             "https://watch.screencastify.com/v/Dgc6bgockCvGAMeZXhBy",
             "https://shrouded-eyrie-81862.herokuapp.com/",
 "https://drive.google.com/file/d/1NmFVXjeOv9QQfiM3FMvG5-2YYfw6Z7PU/view",
-"https://drive.google.com/file/d/1LlUAUnrNxKqgGgh-7QmrCBzpQ2JznV-U/view",
-            "https://marymd98.github.io/Unit6-Homework/",
-            "https://marymd98.github.io/Unit5-Homework/",
-            "https://marymd98.github.io/Unit4-Homework/",
-            "https://marymd98.github.io/Unit3-Homework/",
-            "https://marymd98.github.io/Unit2-Homework/",
-            "https://marymd98.github.io/Unit1-Homework/"],
+        // "https://drive.google.com/file/d/1LlUAUnrNxKqgGgh-7QmrCBzpQ2JznV-U/view",
+        //     "https://marymd98.github.io/Unit6-Homework/",
+        //     "https://marymd98.github.io/Unit5-Homework/",
+        //     "https://marymd98.github.io/Unit4-Homework/",
+        //     "https://marymd98.github.io/Unit3-Homework/",
+        //     "https://marymd98.github.io/Unit2-Homework/",
+        //     "https://marymd98.github.io/Unit1-Homework/"
+        ],
     repoLink:["https://github.com/MaryMD98/Text-editor.git",
             "https://github.com/MaryMD98/Tech-Blog.git",
             "https://github.com/MaryMD98/E-Commerce-ORM.git",
             "https://github.com/MaryMD98/EmployeeTraker.git",
             "https://github.com/MaryMD98/NoteTaker.git",
             "https://github.com/MaryMD98/TeamProfile-generator.git",
-            "https://github.com/MaryMD98/ReadMe-generator.git",
-            "https://github.com/MaryMD98/Unit6-Homework.git",
-            "https://github.com/MaryMD98/Unit5-Homework.git",
-            "https://github.com/MaryMD98/Unit4-Homework.git",
-            "https://github.com/MaryMD98/Unit3-Homework.git",
-            "https://github.com/MaryMD98/Unit2-Homework.git",
-            "https://github.com/MaryMD98/Unit1-Homework.git"],
+        //     "https://github.com/MaryMD98/ReadMe-generator.git",
+        //     "https://github.com/MaryMD98/Unit6-Homework.git",
+        //     "https://github.com/MaryMD98/Unit5-Homework.git",
+        //     "https://github.com/MaryMD98/Unit4-Homework.git",
+        //     "https://github.com/MaryMD98/Unit3-Homework.git",
+        //     "https://github.com/MaryMD98/Unit2-Homework.git",
+        //     "https://github.com/MaryMD98/Unit1-Homework.git"
+        ],
     imgSRC: ["./Assets/pictures/hw-projects/hw19.png",
             "./Assets/pictures/hw-projects/hw14.png",
             "./Assets/pictures/hw-projects/hw13.png",
             "./Assets/pictures/hw-projects/hw12.png",
             "./Assets/pictures/hw-projects/hw11-NoteTaker.png",
             "./Assets/pictures/hw-projects/hw10-TeamGenerator.png",
-            "./Assets/pictures/hw-projects/hw9-ReadME generator.png",
-            "./Assets/pictures/hw-projects/hw6-Screenshot.png",
-            "./Assets/pictures/hw-projects/hw5-Screenshot.png",
-            "./Assets/pictures/hw-projects/hw4-Screenshot.png",
-            "./Assets/pictures/hw-projects/hw3-Screenshot.png",
-            "./Assets/pictures/hw-projects/hw2-Screenshot.png",
-            "./Assets/pictures/hw-projects/hw1-Screenshot.png"],
+        //     "./Assets/pictures/hw-projects/hw9-ReadME generator.png",
+        //     "./Assets/pictures/hw-projects/hw6-Screenshot.png",
+        //     "./Assets/pictures/hw-projects/hw5-Screenshot.png",
+        //     "./Assets/pictures/hw-projects/hw4-Screenshot.png",
+        //     "./Assets/pictures/hw-projects/hw3-Screenshot.png",
+        //     "./Assets/pictures/hw-projects/hw2-Screenshot.png",
+        //     "./Assets/pictures/hw-projects/hw1-Screenshot.png"
+        ],
     title: ["Text Editor PWA",
             "Tech Blog","E-Commerce ORM", "Employee Tracker",
-            "Note Taker","Team Profile Generator","ReadME Generator",
-            "Weather Dashboard","Work Day Scheduler","Coding Quiz Challenge",
-            "Password Generator","Portafolio","Code Refactor"],
+            "Note Taker","Team Profile Generator",
+        //     "ReadME Generator",
+        //     "Weather Dashboard","Work Day Scheduler","Coding Quiz Challenge",
+        //     "Password Generator","Portafolio","Code Refactor"
+        ],
     cardTXT:["Homework 19 Repo",
             "Homework 14 Repo","Homework 13 Repo","Homework 12 Repo",
-            "Homework 11 Repo","Homework 10 Repo","Homework 9 Repo",
-            "Homework Six Repo","Homework Five Repo","Homework Four Repo",
-            "Homework Three Repo","Homework Two Repo","Homework One Repo"],
+            "Homework 11 Repo","Homework 10 Repo",
+        //     "Homework 9 Repo",
+        //     "Homework Six Repo","Homework Five Repo","Homework Four Repo",
+        //     "Homework Three Repo","Homework Two Repo","Homework One Repo"
+        ],
 };
 
 /// links location and information of projects to be displayed
@@ -74,7 +81,7 @@ function initDisplay(){
     Display (ProjectsEI, index, ProjectsInfo);
 
     /// this send the info about works to the function display
-    index = 13;
+    index = 6;
     const worksEI = document.querySelector(".works");
     Display (worksEI, index, worksInfo);
 }
