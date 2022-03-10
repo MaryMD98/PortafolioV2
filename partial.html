@@ -11,22 +11,25 @@
     <title>Document</title>
 </head>
 <body>
-    
+    <!-- Header of the page, will display 5 hyperlinks areas 
+    about me, Works, projects, Conntact, Resume -->
     <header>
-        <nav class="navbar bg-light justify-content-center">
-            <div class="nav justify-content-center">
-                <a class="nav-link" href="#about-me-link">About Me</a>
-                <a class="nav-link" href="#projects-link">Projects</a>
-                <a class="nav-link" href="#works-link">Works</a>
-                <a class="nav-link" href="#contact-me-link">Contact</a>
-                <a class="nav-link" href="./Assets/pdf/Montes Maribel - Resume.pdf">Resume</a>
-            </div>
-        </nav>
-
+        <!-- Hyperlinks on the top of page will be conected to the portions displayed on the page-->
+        <div class="jumbotron">
+            <nav class="navbar bg-light justify-content-center">
+                <div class="nav justify-content-center">
+                    <a class="nav-link" href="#about-me-link">About Me</a>
+                    <a class="nav-link" href="#projects-link">Projects</a>
+                    <a class="nav-link" href="#works-link">Works</a>
+                    <a class="nav-link" href="#contact-me-link">Contact</a>
+                    <a class="nav-link" href="./Assets/pdf/Montes Maribel - Resume.pdf">Resume</a>
+                </div>
+            </nav>
+        </div>
     </header>
 
     <main>
-        <div class = card>
+        <div class = "card">
             <img src="./Assets/pictures/Maribel.jpg" alt="picture of Maribel Montes" style="width:100%"/>
             <h1>Maribel Montes</h1>
             <p class="title">Full Stack Web Application</p>
@@ -37,6 +40,18 @@
                 <a href="#"><i class="fa fa-address-card"></i></a> 
             </div>
             <p><button>Contact Me</button></p>
+        </div>
+
+        <div class = "box-info">
+            <div class="aboutMEmsg" id="about-me-link">
+                <h2>ABOUT ME:</h2>
+                    <p> Seeking a position with a company which will require me to utilize my skills, abilities and experience that will contribute to the growth of the company.</p>
+                    <p> Graduted from the University of Texas at Austin with a Bachelors degree in Engineering in 2012.</p>
+                    <p> Worked in the hospitality industry for 7 years and with 6 years of management experience.</p>
+                    <p> Currently taking the University of Texas full stack flex bootcamp, to build my portafolio and to refresh my knowledge in programing languages.</p>
+                <h2>Skills:</h2>
+            </div> 
+            
         </div>
 
     </main>
