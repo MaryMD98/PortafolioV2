@@ -118,6 +118,12 @@ header nav a:hover{
     margin-bottom:10px;
 }
 
+/* .aboutMEmsg i{
+    width: 200px;
+    height: 200px;
+    
+} */
+
 .box-info{
     box-shadow: 4px 8px 10px 0 #3d0164;
     max-width: 800px;
