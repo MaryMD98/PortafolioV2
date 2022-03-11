@@ -5,20 +5,19 @@ body{
     /* background: linear-gradient(45deg, #FDFDFD, #DFCEE3, #736797, #C791AD, #9F6FA3, #B397C5, #8E6F84);     */
       
     background-color: #aff6cf; 
-background-image: linear-gradient(315deg, #aff6cf 0%, #9f98e8 74%);
+    background-image: linear-gradient(315deg, #aff6cf 0%, #9f98e8 74%);
 
-/* background-color: #5de6de;
-background-image: linear-gradient(315deg, #5de6de 0%, #b58ecc 74%); */
+    /* background-color: #5de6de;
+    background-image: linear-gradient(315deg, #5de6de 0%, #b58ecc 74%); */
 
-/* background-color: #f8ceec;
-background-image: linear-gradient(315deg, #f8ceec 0%, #a88beb 74%); */
+    /* background-color: #f8ceec;
+    background-image: linear-gradient(315deg, #f8ceec 0%, #a88beb 74%); */
 
-/* background-color: #89d4cf;
-background-image: linear-gradient(315deg, #89d4cf 0%, #6e45e1 74%); */
+    /* background-color: #89d4cf;
+    background-image: linear-gradient(315deg, #89d4cf 0%, #6e45e1 74%); */
 
-/* background-color: #923cb5;
-background-image: linear-gradient(147deg, #923cb5 0%, #000000 74%);  */
-
+    /* background-color: #923cb5;
+    background-image: linear-gradient(147deg, #923cb5 0%, #000000 74%);  */
 }
 
 .mainbox{
@@ -88,7 +87,7 @@ button:hover, a:hover {
     opacity: 0.7;
 }
 
-/* Navbar */
+/********* Navbar  *******/
 .jumbotron{
     padding: 15px;
     background-color: #aff6cf; 
@@ -108,12 +107,7 @@ header nav a:hover{
     opacity: 0.7;
 }
 
-/* about me box */
-.aboutMEmsg{
-    padding-top: 40px;
-    padding-bottom: 20px;
-}
-
+/********* about me box  *******/
 .aboutMEmsg h2{
     margin-bottom: 20px;
     font-weight:bold;
@@ -133,7 +127,7 @@ header nav a:hover{
     margin-left: 20px;
     margin-top: 10px;
     margin-bottom: 20px;
-    padding-left: 20px;
+    padding: 20px;
     display: flexbox;
     font-family: 'Outfit', sans-serif;
     background-color: #f9f5fa;
@@ -197,9 +191,47 @@ header nav a:hover{
 
 /******* footer *******/
 footer{
-    position: absolute;
+    position:relative;
     bottom: 0;
     width: 100%;
     height: 2.5rem;
+    margin-left: 20px;
   /* float: left; */
+}
+
+/**********************************/
+
+/* for diferent types of screen */
+/* using a mobile-first approach, use `min-width` values going from narrow -> wide for a responsive design */
+/* maxwidth means if device width is less than or equal to 768px then do the code */
+/* min width means if device with is greater than or equal to 992 do the code*/
+
+/* media query on small devices */
+/* device less than 768px - use maxwidth */
+@media screen and (max-width: 768px) {
+    /* on tablets, set columns to only be 50% of the width and not grow */
+    /* headear will be on one single line */
+   
+    .mainbox{
+        flex-direction: column;
+    }   
+}
+  
+  /* media query for larger screens */
+  /* device greater than 992px - use min width */
+
+@media screen and (min-width: 992px) {
+
+    /* .projects , .works{
+        margin-top:20px;
+    }
+        
+    .box-info{
+        padding:30px;
+    }
+
+    .card{
+        flex-wrap: wrap;
+        flex-direction:row-reverse;
+    }     */
 }
