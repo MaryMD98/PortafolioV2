@@ -69,7 +69,7 @@ const ProjectsInfo = {
     imgSRC: ["./Assets/pictures/hw-projects/project1-screenshot.png",
             "./Assets/pictures/hw-projects/project2.png",
             "./Assets/pictures/image-2.png"],
-    title: ["Stellar Sights","Anyone Can Cook","Project Three"],
+    title: ["Stellar Sights","Anyone Can Cook!","Project Three"],
     cardTXT:["Project One Repo","Project Two Repo","Project Three Repo"],
 };
 
