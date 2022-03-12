@@ -260,8 +260,8 @@ footer{
         display: flex;
         flex-wrap: wrap;
         flex-direction: row;
-        flex: 0 0 15%;
-        max-width: 15%;
+        flex: 0 0 30%;
+        max-width: 30%;
         /* transition: flex-basis 500ms linear; */
     }
 
